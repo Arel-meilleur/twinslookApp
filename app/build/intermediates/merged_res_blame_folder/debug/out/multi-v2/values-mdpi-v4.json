@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\HP\\Desktop\\codecanyon-f3sLUhtf-adforest-classified-native-android-app\\main_files\\AdForest\\AdForest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mdpi-v4\\values-mdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\HP\\Desktop\\codecanyon-f3sLUhtf-adforest-classified-native-android-app\\main_files\\AdForest\\AdForest\\app\\src\\main\\res\\values-mdpi\\dimens.xml",
+                    "from": {
+                        "startLines": "3,5,2,4",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "101,199,57,149",
+                        "endColumns": "46,40,42,48",
+                        "endOffsets": "143,235,95,193"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,102,143,186",
+                        "endColumns": "46,40,42,48",
+                        "endOffsets": "97,138,181,230"
+                    }
+                }
+            ]
+        }
+    ]
+}

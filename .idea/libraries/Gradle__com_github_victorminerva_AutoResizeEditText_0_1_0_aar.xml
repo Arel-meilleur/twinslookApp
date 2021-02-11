@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.victorminerva:AutoResizeEditText:0.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0dabd191d4a36426c2a14ddef9cc4aec/jetified-AutoResizeEditText-0.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0dabd191d4a36426c2a14ddef9cc4aec/jetified-AutoResizeEditText-0.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0dabd191d4a36426c2a14ddef9cc4aec/jetified-AutoResizeEditText-0.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

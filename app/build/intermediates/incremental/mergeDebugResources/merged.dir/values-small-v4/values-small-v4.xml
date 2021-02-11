@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="headtext_padding">5dp</dimen>
+    <dimen name="latest_Ads">8sp</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_bottom">24dp</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_end">24dp</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_start">24dp</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_top">24dp</dimen>
+    <dimen name="padding_top">16dp</dimen>
+    <dimen name="welcome_text_size">20sp</dimen>
+</resources>

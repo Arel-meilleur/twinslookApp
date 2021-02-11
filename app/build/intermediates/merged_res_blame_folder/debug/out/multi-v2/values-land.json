@@ -1,0 +1,89 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\HP\\Desktop\\codecanyon-f3sLUhtf-adforest-classified-native-android-app\\main_files\\AdForest\\AdForest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\7a7f4f82b1136886a776d5b4d145bd30\\jetified-drop-in-3.7.1\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,131,202,264,325",
+                        "endColumns": "75,70,61,60,59",
+                        "endOffsets": "126,197,259,320,380"
+                    },
+                    "to": {
+                        "startLines": "6,7,11,12,13",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "326,402,683,745,806",
+                        "endColumns": "75,70,61,60,59",
+                        "endOffsets": "397,468,740,801,861"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\17731219a94d6d9e03b14aaed9ac2ffd\\appcompat-1.2.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\c0570cdee5f49416c2f15ecf5b00e797\\material-1.2.1\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,24,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,128,198,270,340,405,472,542,614,683,752,834,924,1000,1068,1135,1213,1278,1345,1517,1912",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,23,29,34",
+                        "endColumns": "72,69,71,69,64,66,69,71,68,68,81,89,75,67,66,77,64,66,10,10,10",
+                        "endOffsets": "123,193,265,335,400,467,537,609,678,747,829,919,995,1063,1130,1208,1273,1340,1512,1907,2176"
+                    },
+                    "to": {
+                        "startLines": "14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,36,42",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "866,939,1009,1081,1151,1216,1283,1353,1425,1494,1563,1645,1735,1811,1879,1946,2024,2089,2156,2328,2723",
+                        "endLines": "14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,35,41,46",
+                        "endColumns": "72,69,71,69,64,66,69,71,68,68,81,89,75,67,66,77,64,66,10,10,10",
+                        "endOffsets": "934,1004,1076,1146,1211,1278,1348,1420,1489,1558,1640,1730,1806,1874,1941,2019,2084,2151,2323,2718,2987"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\dd74611c1b587d0495cabb9f3088d523\\jetified-belvedere-3.0.0-RC\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "61",
+                        "endOffsets": "112"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endColumns": "61",
+                        "endOffsets": "321"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\7bc2d645d036541c579e3331fac8a93d\\jetified-card-form-3.5.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,119,192",
+                        "endColumns": "63,72,72",
+                        "endOffsets": "114,187,260"
+                    },
+                    "to": {
+                        "startLines": "8,9,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "473,537,610",
+                        "endColumns": "63,72,72",
+                        "endOffsets": "532,605,678"
+                    }
+                }
+            ]
+        }
+    ]
+}

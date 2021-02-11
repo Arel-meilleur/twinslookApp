@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "395239454091",
+    "project_id": "twinslook-e7ce4",
+    "storage_bucket": "twinslook-e7ce4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395239454091:android:560411e5ede3b2842a6b8e",
+        "android_client_info": {
+          "package_name": "com.twinslooktm.twinslooktmapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395239454091-lrgdpif0hodtvvd7mqnpgn4nkeev1374.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.twinslooktm.twinslooktmapp",
+            "certificate_hash": "9e2b16569fafbea4a463bb30ead0a9bda97617f7"
+          }
+        },
+        {
+          "client_id": "395239454091-410set2apb6dcns2sda25lir9evnn39l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXgMwlmImwB_ju2gh1A6yxZhdinNjInXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395239454091-410set2apb6dcns2sda25lir9evnn39l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

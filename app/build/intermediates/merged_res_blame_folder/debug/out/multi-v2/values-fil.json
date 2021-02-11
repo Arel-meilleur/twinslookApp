@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\HP\\Desktop\\codecanyon-f3sLUhtf-adforest-classified-native-android-app\\main_files\\AdForest\\AdForest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fil\\values-fil.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\dd74611c1b587d0495cabb9f3088d523\\jetified-belvedere-3.0.0-RC\\res\\values-fil\\values-fil.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,175,279,379,474,584,676,752,828,916,1020,1109,1202,1297,1396",
+                        "endColumns": "58,60,103,99,94,109,91,75,75,87,103,88,92,94,98,87",
+                        "endOffsets": "109,170,274,374,469,579,671,747,823,911,1015,1104,1197,1292,1391,1479"
+                    }
+                }
+            ]
+        }
+    ]
+}

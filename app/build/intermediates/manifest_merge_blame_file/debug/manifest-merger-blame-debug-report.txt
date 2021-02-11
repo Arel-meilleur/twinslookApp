@@ -1,0 +1,1210 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.twinslooktm.twinslooktmapp"
+4    android:versionCode="63"
+5    android:versionName="3.2" >
+6
+7    <uses-sdk
+7-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:6:5-70
+8        android:minSdkVersion="17"
+8-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:6:5-70
+9        android:targetSdkVersion="30" />
+9-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:6:5-70
+10    <!-- for card.io card scanning -->
+11    <uses-feature
+11-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:8:5-10:36
+12        android:name="android.hardware.camera"
+12-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:9:9-47
+13        android:required="false" />
+13-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:10:9-33
+14    <uses-feature
+14-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:11:5-13:36
+15        android:name="android.hardware.camera.autofocus"
+15-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:12:9-57
+16        android:required="false" />
+16-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:13:9-33
+17
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:15:5-66
+18-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:15:22-63
+19    <uses-permission android:name="com.android.vending.BILLING" />
+19-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:16:5-67
+19-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:16:22-64
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:17:5-65
+20-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:17:22-62
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:18:5-67
+21-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:18:22-64
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:19:5-79
+22-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:19:22-76
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:20:5-80
+23-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:20:22-77
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:21:5-76
+24-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:21:22-73
+25    <uses-permission android:name="android.permission.CALL_PHONE" />
+25-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:22:5-69
+25-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:22:22-66
+26    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+26-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:23:5-79
+26-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:23:22-76
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:24:5-81
+27-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:24:22-78
+28    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+28-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:25:5-75
+28-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:25:22-72
+29    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+29-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:26:5-81
+29-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:26:22-78
+30
+31    <uses-feature
+31-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5c272fdde44e2373461fffa11b3ed15e\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+32        android:glEsVersion="0x00020000"
+32-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5c272fdde44e2373461fffa11b3ed15e\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+33        android:required="true" /> <!-- Optional permission for Analytics to run. -->
+33-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5c272fdde44e2373461fffa11b3ed15e\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+34    <uses-permission android:name="android.permission.WAKE_LOCK" />
+34-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed17ecbd5a56235fed582e532306d81e\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:27:5-68
+34-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed17ecbd5a56235fed582e532306d81e\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:27:22-65
+35
+36    <uses-feature
+36-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7e6621cb0b69e4a7319722de78ac205c\jetified-mapbox-android-sdk-8.4.0\AndroidManifest.xml:12:5-14:36
+37        android:name="android.hardware.wifi"
+37-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7e6621cb0b69e4a7319722de78ac205c\jetified-mapbox-android-sdk-8.4.0\AndroidManifest.xml:13:9-45
+38        android:required="false" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+38-->[com.mapbox.mapboxsdk:mapbox-android-sdk:8.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7e6621cb0b69e4a7319722de78ac205c\jetified-mapbox-android-sdk-8.4.0\AndroidManifest.xml:14:9-33
+39    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+39-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\670cf115d4d8d4cc1f7d7a0a2c104f29\jetified-firebase-iid-21.0.0\AndroidManifest.xml:26:5-82
+39-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\670cf115d4d8d4cc1f7d7a0a2c104f29\jetified-firebase-iid-21.0.0\AndroidManifest.xml:26:22-79
+40    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+40-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\addaee43bd52d45d05d34af175ca1b66\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:5-110
+40-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\addaee43bd52d45d05d34af175ca1b66\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:22-107
+41    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+41-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:27:5-81
+41-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:27:22-78
+42
+43    <application
+43-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:28:5-257:19
+44        android:name="com.twinslooktm.twinslooktmapp.App"
+44-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:29:9-58
+45        android:allowBackup="true"
+45-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:30:9-35
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.3.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6a74eab7d919609ba5ed958d8c2783c4\core-1.3.1\AndroidManifest.xml:24:18-86
+47        android:debuggable="true"
+48        android:icon="@mipmap/ic_launcher"
+48-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:31:9-43
+49        android:label="@string/app_name"
+49-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:32:9-41
+50        android:largeHeap="true"
+50-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:33:9-33
+51        android:requestLegacyExternalStorage="true"
+51-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:34:9-52
+52        android:roundIcon="@mipmap/ic_launcher_round"
+52-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:35:9-54
+53        android:screenOrientation="portrait"
+53-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:36:9-45
+54        android:supportsRtl="true"
+54-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:37:9-35
+55        android:theme="@style/AppTheme"
+55-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:38:9-40
+56        android:usesCleartextTraffic="true" >
+56-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:39:9-44
+57        <activity android:name="com.twinslooktm.twinslooktmapp.packages.AuthorizeNet" />
+57-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:40:9-89
+57-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:40:19-86
+58        <activity android:name="com.twinslooktm.twinslooktmapp.LinkedIn.LinkedInAuthenticationActivity" />
+58-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:41:9-107
+58-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:41:19-104
+59        <activity
+59-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:42:9-44:59
+60            android:name="com.twinslooktm.twinslooktmapp.packages.WorldPayIntegration"
+60-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:43:13-87
+61            android:theme="@style/AppTheme.NoActionBar" />
+61-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:44:13-56
+62        <activity android:name="com.twinslooktm.twinslooktmapp.packages.PayHereIntegration" />
+62-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:45:9-95
+62-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:45:19-92
+63        <activity
+63-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:46:9-48:59
+64            android:name="com.twinslooktm.twinslooktmapp.packages.PayStack"
+64-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:47:13-76
+65            android:theme="@style/AppTheme.NoActionBar" />
+65-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:48:13-56
+66        <activity
+66-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:49:9-53:55
+67            android:name="com.twinslooktm.twinslooktmapp.home.ChooseLanguageActivity"
+67-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:50:13-86
+68            android:screenOrientation="nosensor"
+68-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:51:13-49
+69            android:theme="@style/AppTheme.NoActionBar"
+69-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:52:13-56
+70            android:windowSoftInputMode="adjustPan" />
+70-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:53:13-52
+71        <activity
+71-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:54:9-62:20
+72            android:name="com.twinslooktm.twinslooktmapp.SplashScreen"
+72-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:55:13-71
+73            android:screenOrientation="nosensor" >
+73-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:56:13-49
+74            <intent-filter>
+74-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:57:13-61:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:58:17-69
+75-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:58:25-66
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:60:17-77
+77-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:60:27-74
+78            </intent-filter>
+79        </activity>
+80        <activity
+80-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:63:9-65:52
+81            android:name="com.twinslooktm.twinslooktmapp.signinorup.MainActivity"
+81-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:64:13-82
+82            android:screenOrientation="nosensor" />
+82-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:65:13-49
+83        <activity
+83-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:66:9-69:48
+84            android:name="com.facebook.FacebookActivity"
+84-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:67:13-57
+85            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+85-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:68:13-96
+86            android:label="@string/app_name"
+86-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:69:13-45
+87            android:theme="@style/com_facebook_activity_theme" />
+87-->[com.facebook.android:facebook-common:7.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\71b22cedcbcdcda90ba19d313c0625b6\jetified-facebook-common-7.0.0\AndroidManifest.xml:33:13-63
+88        <activity
+88-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:70:9-81:20
+89            android:name="com.facebook.CustomTabActivity"
+89-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:71:13-58
+90            android:exported="true" >
+90-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:72:13-36
+91            <intent-filter>
+91-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:73:13-80:29
+92                <action android:name="android.intent.action.VIEW" />
+92-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:74:17-69
+92-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:74:25-66
+93
+94                <category android:name="android.intent.category.DEFAULT" />
+94-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:76:17-76
+94-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:76:27-73
+95                <category android:name="android.intent.category.BROWSABLE" />
+95-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:77:17-78
+95-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:77:27-75
+96
+97                <data android:scheme="@string/fb_login_protocol_scheme" />
+97-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:79:17-75
+97-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:79:23-72
+98            </intent-filter>
+99            <intent-filter>
+99-->[com.facebook.android:facebook-common:7.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\71b22cedcbcdcda90ba19d313c0625b6\jetified-facebook-common-7.0.0\AndroidManifest.xml:39:13-48:29
+100                <action android:name="android.intent.action.VIEW" />
+100-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:74:17-69
+100-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:74:25-66
+101
+102                <category android:name="android.intent.category.DEFAULT" />
+102-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:76:17-76
+102-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:76:27-73
+103                <category android:name="android.intent.category.BROWSABLE" />
+103-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:77:17-78
+103-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:77:27-75
+104
+105                <data
+105-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:79:17-75
+106                    android:host="cct.com.twinslooktm.twinslooktmapp"
+107                    android:scheme="fbconnect" />
+107-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:79:23-72
+108            </intent-filter>
+109        </activity>
+110        <activity
+110-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:82:9-93:20
+111            android:name="com.twinslooktm.twinslooktmapp.home.HomeActivity"
+111-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:83:13-76
+112            android:screenOrientation="nosensor"
+112-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:84:13-49
+113            android:theme="@style/AppTheme.NoActionBar"
+113-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:85:13-56
+114            android:uiOptions="splitActionBarWhenNarrow"
+114-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:86:13-57
+115            android:windowSoftInputMode="adjustPan" >
+115-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:87:13-52
+116            <intent-filter>
+116-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:88:13-92:29
+117                <action android:name="android.intent.action.SEND" />
+117-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:89:17-69
+117-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:89:25-66
+118
+119                <category android:name="android.intent.category.DEFAULT" />
+119-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:76:17-76
+119-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:76:27-73
+120            </intent-filter>
+121        </activity>
+122        <activity
+122-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:94:9-102:20
+123            android:name="com.twinslooktm.twinslooktmapp.Search.SearchActivity"
+123-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:95:13-80
+124            android:screenOrientation="nosensor"
+124-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:96:13-49
+125            android:theme="@style/AppTheme.NoActionBar"
+125-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:97:13-56
+126            android:windowSoftInputMode="adjustPan" >
+126-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:98:13-52
+127            <meta-data
+127-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:99:13-101:84
+128                android:name="android.support.PARENT_ACTIVITY"
+128-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:100:17-63
+129                android:value="com.twinslooktm.twinslooktmapp.home.HomeActivity" />
+129-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:101:17-81
+130        </activity>
+131        <activity
+131-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:103:9-110:20
+132            android:name="com.twinslooktm.twinslooktmapp.messages.Message"
+132-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:104:13-75
+133            android:screenOrientation="nosensor"
+133-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:105:13-49
+134            android:theme="@style/AppTheme.NoActionBar" >
+134-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:106:13-56
+135            <meta-data
+135-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:99:13-101:84
+136                android:name="android.support.PARENT_ACTIVITY"
+136-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:100:17-63
+137                android:value="com.twinslooktm.twinslooktmapp.home.HomeActivity" />
+137-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:101:17-81
+138        </activity>
+139        <activity
+139-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:111:9-119:20
+140            android:name="com.twinslooktm.twinslooktmapp.messages.ChatActivity"
+140-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:112:13-80
+141            android:parentActivityName="com.twinslooktm.twinslooktmapp.messages.Message"
+141-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:113:13-89
+142            android:screenOrientation="nosensor"
+142-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:114:13-49
+143            android:theme="@style/AppTheme.NoActionBar" >
+143-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:115:13-56
+144            <meta-data
+144-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:99:13-101:84
+145                android:name="android.support.PARENT_ACTIVITY"
+145-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:100:17-63
+146                android:value="com.twinslooktm.twinslooktmapp.messages.Message" />
+146-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:101:17-81
+147        </activity>
+148        <activity
+148-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:120:9-128:20
+149            android:name="com.twinslooktm.twinslooktmapp.home.AddNewAdPost"
+149-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:121:13-76
+150            android:parentActivityName="com.twinslooktm.twinslooktmapp.home.HomeActivity"
+150-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:122:13-90
+151            android:screenOrientation="nosensor"
+151-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:123:13-49
+152            android:theme="@style/AppTheme.NoActionBar" >
+152-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:124:13-56
+153            <meta-data
+153-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:99:13-101:84
+154                android:name="android.support.PARENT_ACTIVITY"
+154-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:100:17-63
+155                android:value="com.twinslooktm.twinslooktmapp.home.HomeActivity" />
+155-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:101:17-81
+156        </activity>
+157        <activity
+157-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:129:9-137:20
+158            android:name="com.twinslooktm.twinslooktmapp.home.EditAdPost"
+158-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:130:13-74
+159            android:parentActivityName="com.twinslooktm.twinslooktmapp.home.HomeActivity"
+159-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:131:13-90
+160            android:screenOrientation="nosensor"
+160-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:132:13-49
+161            android:theme="@style/AppTheme.NoActionBar" >
+161-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:133:13-56
+162            <meta-data
+162-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:99:13-101:84
+163                android:name="android.support.PARENT_ACTIVITY"
+163-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:100:17-63
+164                android:value="com.twinslooktm.twinslooktmapp.home.HomeActivity" />
+164-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:101:17-81
+165        </activity>
+166        <activity
+166-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:138:9-141:72
+167            android:name="com.twinslooktm.twinslooktmapp.packages.Thankyou"
+167-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:139:13-76
+168            android:screenOrientation="nosensor"
+168-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:140:13-49
+169            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+169-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:141:13-69
+170        <activity
+170-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:142:9-151:20
+171            android:name="com.twinslooktm.twinslooktmapp.ad_detail.Ad_detail_activity"
+171-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:143:13-87
+172            android:parentActivityName="com.twinslooktm.twinslooktmapp.home.HomeActivity"
+172-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:144:13-90
+173            android:screenOrientation="nosensor"
+173-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:145:13-49
+174            android:theme="@style/AppTheme.NoActionBar"
+174-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:146:13-56
+175            android:windowSoftInputMode="adjustPan" >
+175-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:147:13-52
+176            <meta-data
+176-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:99:13-101:84
+177                android:name="android.support.PARENT_ACTIVITY"
+177-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:100:17-63
+178                android:value="com.twinslooktm.twinslooktmapp.home.HomeActivity" />
+178-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:101:17-81
+179        </activity>
+180        <activity
+180-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:152:9-154:52
+181            android:name="com.twinslooktm.twinslooktmapp.packages.StripePayment"
+181-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:153:13-81
+182            android:screenOrientation="nosensor" />
+182-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:154:13-49
+183        <activity
+183-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:155:9-157:52
+184            android:name="com.twinslooktm.twinslooktmapp.packages.InAppPurchaseActivity"
+184-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:156:13-89
+185            android:screenOrientation="nosensor" />
+185-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:157:13-49
+186        <activity
+186-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:158:9-166:20
+187            android:name="com.twinslooktm.twinslooktmapp.Shop.shopActivity"
+187-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:159:13-76
+188            android:screenOrientation="nosensor"
+188-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:160:13-49
+189            android:theme="@style/AppTheme.NoActionBar"
+189-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:161:13-56
+190            android:windowSoftInputMode="adjustPan" >
+190-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:162:13-52
+191            <meta-data
+191-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:99:13-101:84
+192                android:name="android.support.PARENT_ACTIVITY"
+192-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:100:17-63
+193                android:value="com.twinslooktm.twinslooktmapp.home.HomeActivity" />
+193-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:101:17-81
+194        </activity>
+195        <activity
+195-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:167:9-173:20
+196            android:name="com.twinslooktm.twinslooktmapp.Settings.Settings"
+196-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:168:13-76
+197            android:screenOrientation="nosensor" >
+197-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:169:13-49
+198            <meta-data
+198-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:99:13-101:84
+199                android:name="android.support.PARENT_ACTIVITY"
+199-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:100:17-63
+200                android:value="com.twinslooktm.twinslooktmapp.home.HomeActivity" />
+200-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:101:17-81
+201        </activity>
+202        <activity
+202-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:174:9-177:72
+203            android:name="com.twinslooktm.twinslooktmapp.ad_detail.full_screen_image.FullScreenViewActivity"
+203-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:175:13-109
+204            android:screenOrientation="nosensor"
+204-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:176:13-49
+205            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+205-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:177:13-69
+206        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+206-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:178:9-84
+206-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:178:19-81
+207        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+207-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:179:9-82
+207-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:179:19-79
+208        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+208-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:180:9-90
+208-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:180:19-87
+209        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" /> <!-- Full screen image Viewer -->
+209-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:181:9-91
+209-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:181:19-88
+210        <meta-data
+210-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:182:9-184:52
+211            android:name="com.google.android.gms.ads.APPLICATION_ID"
+211-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:183:13-69
+212            android:value="@string/Admob_app_id" /> <!-- Google Analytcis -->
+212-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:184:13-49
+213        <meta-data
+213-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:185:9-187:69
+214            android:name="com.google.android.gms.version"
+214-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:186:13-58
+215            android:value="@integer/google_play_services_version" />
+215-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:187:13-66
+216        <meta-data
+216-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:188:9-190:71
+217            android:name="com.google.android.geo.API_KEY"
+217-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:189:13-58
+218            android:value="AIzaSyDkRxdKz94m2oJeglivzaknm2sgoD7Di6c" />
+218-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:190:13-68
+219        <meta-data
+219-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:191:9-193:55
+220            android:name="com.facebook.sdk.ApplicationId"
+220-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:192:13-58
+221            android:value="@string/facebook_app_id" />
+221-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:193:13-52
+222
+223        <receiver
+223-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:195:9-201:20
+224            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+224-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:196:13-78
+225            android:enabled="true"
+225-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:197:13-35
+226            android:exported="false" >
+226-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed17ecbd5a56235fed582e532306d81e\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:33:13-37
+227            <intent-filter>
+227-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:198:13-200:29
+228                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+228-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:199:17-94
+228-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:199:25-91
+229            </intent-filter>
+230        </receiver> <!-- Google Analytics -->
+231        <!-- Firebase Notifications -->
+232        <receiver
+232-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:203:9-209:20
+233            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+233-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:204:13-85
+234            android:exported="true" >
+234-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:205:13-36
+235            <intent-filter>
+235-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:206:13-208:29
+236                <action android:name="com.android.vending.INSTALL_REFERRER" />
+236-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:207:17-79
+236-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:207:25-76
+237            </intent-filter>
+238        </receiver> <!-- <service -->
+239        <!-- android:name=".Notification.MyFirebaseInstanceIDService" -->
+240        <!-- &gt; -->
+241        <!-- <intent-filter> -->
+242        <!-- <action android:name="com.google.firebase.MESSAGING_EVENT"/> -->
+243        <!-- </intent-filter> -->
+244        <!-- </service> &lt;!&ndash; ./Firebase Notifications &ndash;&gt; -->
+245        <!-- PayPal -->
+246        <receiver android:name="com.twinslooktm.twinslooktmapp.utills.NoInternet.NetwordStateManager" >
+246-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:217:9-222:20
+246-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:217:19-102
+247            <intent-filter>
+247-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:218:13-221:29
+248                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+248-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:219:17-79
+248-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:219:25-76
+249                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+249-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:220:17-78
+249-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:220:25-75
+250            </intent-filter>
+251        </receiver>
+252
+253        <service
+253-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:224:9-227:40
+254            android:name="com.google.android.gms.analytics.AnalyticsService"
+254-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:225:13-77
+255            android:enabled="true"
+255-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:226:13-35
+256            android:exported="false" />
+256-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:227:13-37
+257        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+257-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:228:9-92
+257-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:228:18-89
+258        <service
+258-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:229:9-235:19
+259            android:name="com.twinslooktm.twinslooktmapp.Notification.MyFirebaseMessagingService"
+259-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:230:13-98
+260            android:exported="false" >
+260-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:231:13-37
+261            <intent-filter>
+261-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:232:13-234:29
+262                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+262-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:233:17-78
+262-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:233:25-75
+263            </intent-filter>
+264        </service>
+265        <service
+265-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:236:9-238:40
+266            android:name="com.paypal.android.sdk.payments.PayPalService"
+266-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:237:13-73
+267            android:exported="false" /> <!-- <activity -->
+267-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:238:13-37
+268        <!-- android:name="io.card.payment.CardIOActivity" -->
+269        <!-- android:configChanges="keyboardHidden|orientation" /> -->
+270        <!-- <activity android:name="io.card.payment.DataEntryActivity" /> -->
+271        <!-- PayPal -->
+272        <uses-library
+272-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:243:9-245:40
+273            android:name="org.apache.http.legacy"
+273-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:244:13-50
+274            android:required="false" />
+274-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:245:13-37
+275
+276        <provider
+277            android:name="androidx.core.content.FileProvider"
+277-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:248:13-62
+278            android:authorities="com.twinslooktm.twinslooktmapp.provider"
+278-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:249:13-60
+279            android:exported="false"
+279-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:250:13-37
+280            android:grantUriPermissions="true" >
+280-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:251:13-47
+281
+282            <!-- &lt;!&ndash;            <meta-data&ndash;&gt; -->
+283            <!-- &lt;!&ndash;                android:name="android.support.FILE_PROVIDER_PATHS"&ndash;&gt; -->
+284            <!-- &lt;!&ndash;                android:resource="@xml/provider_paths" />&ndash;&gt; -->
+285            <meta-data
+285-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\142f51b6d317ab95569e510f95bfc14a\jetified-gligar-1.1.0\AndroidManifest.xml:27:13-29:54
+286                android:name="android.support.FILE_PROVIDER_PATHS"
+286-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\142f51b6d317ab95569e510f95bfc14a\jetified-gligar-1.1.0\AndroidManifest.xml:28:17-67
+287                android:resource="@xml/file_paths" />
+287-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\142f51b6d317ab95569e510f95bfc14a\jetified-gligar-1.1.0\AndroidManifest.xml:29:17-51
+288        </provider>
+289
+290        <activity
+290-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\01d5fbf74a1bdc237e68c6f236498b29\jetified-mapbox-android-plugin-places-v8-0.9.0\AndroidManifest.xml:10:9-14:68
+291            android:name="com.mapbox.mapboxsdk.plugins.places.autocomplete.ui.PlaceAutocompleteActivity"
+291-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\01d5fbf74a1bdc237e68c6f236498b29\jetified-mapbox-android-plugin-places-v8-0.9.0\AndroidManifest.xml:11:13-105
+292            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+292-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\01d5fbf74a1bdc237e68c6f236498b29\jetified-mapbox-android-plugin-places-v8-0.9.0\AndroidManifest.xml:12:13-122
+293            android:theme="@style/mapbox_plugins_translucent"
+293-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\01d5fbf74a1bdc237e68c6f236498b29\jetified-mapbox-android-plugin-places-v8-0.9.0\AndroidManifest.xml:13:13-62
+294            android:windowSoftInputMode="stateVisible|adjustPan" />
+294-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\01d5fbf74a1bdc237e68c6f236498b29\jetified-mapbox-android-plugin-places-v8-0.9.0\AndroidManifest.xml:14:13-65
+295        <activity
+295-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\01d5fbf74a1bdc237e68c6f236498b29\jetified-mapbox-android-plugin-places-v8-0.9.0\AndroidManifest.xml:15:9-17:125
+296            android:name="com.mapbox.mapboxsdk.plugins.places.picker.ui.PlacePickerActivity"
+296-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\01d5fbf74a1bdc237e68c6f236498b29\jetified-mapbox-android-plugin-places-v8-0.9.0\AndroidManifest.xml:16:13-93
+297            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+297-->[com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\01d5fbf74a1bdc237e68c6f236498b29\jetified-mapbox-android-plugin-places-v8-0.9.0\AndroidManifest.xml:17:13-122
+298        <activity android:name="com.facebook.CustomTabMainActivity" />
+298-->[com.facebook.android:facebook-common:7.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\71b22cedcbcdcda90ba19d313c0625b6\jetified-facebook-common-7.0.0\AndroidManifest.xml:34:9-71
+298-->[com.facebook.android:facebook-common:7.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\71b22cedcbcdcda90ba19d313c0625b6\jetified-facebook-common-7.0.0\AndroidManifest.xml:34:19-68
+299        <activity
+299-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\142f51b6d317ab95569e510f95bfc14a\jetified-gligar-1.1.0\AndroidManifest.xml:17:9-20:47
+300            android:name="com.opensooq.supernova.gligar.ui.ImagePickerActivity"
+300-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\142f51b6d317ab95569e510f95bfc14a\jetified-gligar-1.1.0\AndroidManifest.xml:18:13-80
+301            android:screenOrientation="portrait"
+301-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\142f51b6d317ab95569e510f95bfc14a\jetified-gligar-1.1.0\AndroidManifest.xml:19:13-49
+302            android:theme="@style/LibTheme" />
+302-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\142f51b6d317ab95569e510f95bfc14a\jetified-gligar-1.1.0\AndroidManifest.xml:20:13-44
+303        <activity
+303-->[com.stripe:stripe-android:6.1.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c445498f22ec1e61d0f19df5891f2900\jetified-stripe-android-6.1.2\AndroidManifest.xml:12:9-16:20
+304            android:name="com.stripe.android.view.AddSourceActivity"
+304-->[com.stripe:stripe-android:6.1.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c445498f22ec1e61d0f19df5891f2900\jetified-stripe-android-6.1.2\AndroidManifest.xml:13:13-69
+305            android:theme="@style/StripeDefaultTheme"
+305-->[com.stripe:stripe-android:6.1.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c445498f22ec1e61d0f19df5891f2900\jetified-stripe-android-6.1.2\AndroidManifest.xml:14:13-54
+306            android:windowSoftInputMode="stateVisible" >
+306-->[com.stripe:stripe-android:6.1.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c445498f22ec1e61d0f19df5891f2900\jetified-stripe-android-6.1.2\AndroidManifest.xml:15:13-55
+307        </activity>
+308        <activity
+308-->[com.stripe:stripe-android:6.1.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c445498f22ec1e61d0f19df5891f2900\jetified-stripe-android-6.1.2\AndroidManifest.xml:17:9-20:20
+309            android:name="com.stripe.android.view.PaymentMethodsActivity"
+309-->[com.stripe:stripe-android:6.1.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c445498f22ec1e61d0f19df5891f2900\jetified-stripe-android-6.1.2\AndroidManifest.xml:18:13-74
+310            android:theme="@style/StripeDefaultTheme" >
+310-->[com.stripe:stripe-android:6.1.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c445498f22ec1e61d0f19df5891f2900\jetified-stripe-android-6.1.2\AndroidManifest.xml:19:13-54
+311        </activity>
+312        <activity
+312-->[com.stripe:stripe-android:6.1.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c445498f22ec1e61d0f19df5891f2900\jetified-stripe-android-6.1.2\AndroidManifest.xml:21:9-24:20
+313            android:name="com.stripe.android.view.PaymentFlowActivity"
+313-->[com.stripe:stripe-android:6.1.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c445498f22ec1e61d0f19df5891f2900\jetified-stripe-android-6.1.2\AndroidManifest.xml:22:13-71
+314            android:theme="@style/StripeDefaultTheme" >
+314-->[com.stripe:stripe-android:6.1.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\c445498f22ec1e61d0f19df5891f2900\jetified-stripe-android-6.1.2\AndroidManifest.xml:23:13-54
+315        </activity>
+316        <activity
+316-->[com.karumi:dexter:5.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7ba7bbfebb1a29d48ce22235d77476e0\jetified-dexter-5.0.0\AndroidManifest.xml:27:9-29:72
+317            android:name="com.karumi.dexter.DexterActivity"
+317-->[com.karumi:dexter:5.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7ba7bbfebb1a29d48ce22235d77476e0\jetified-dexter-5.0.0\AndroidManifest.xml:28:13-60
+318            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+318-->[com.karumi:dexter:5.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7ba7bbfebb1a29d48ce22235d77476e0\jetified-dexter-5.0.0\AndroidManifest.xml:29:13-69
+319        <activity
+319-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7a7f4f82b1136886a776d5b4d145bd30\jetified-drop-in-3.7.1\AndroidManifest.xml:18:9-20:62
+320            android:name="com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity"
+320-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7a7f4f82b1136886a776d5b4d145bd30\jetified-drop-in-3.7.1\AndroidManifest.xml:19:13-94
+321            android:theme="@style/bt_three_d_secure_theme" />
+321-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7a7f4f82b1136886a776d5b4d145bd30\jetified-drop-in-3.7.1\AndroidManifest.xml:20:13-59
+322        <activity
+322-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7a7f4f82b1136886a776d5b4d145bd30\jetified-drop-in-3.7.1\AndroidManifest.xml:21:9-23:64
+323            android:name="com.braintreepayments.api.dropin.DropInActivity"
+323-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7a7f4f82b1136886a776d5b4d145bd30\jetified-drop-in-3.7.1\AndroidManifest.xml:22:13-75
+324            android:theme="@style/bt_drop_in_activity_theme" />
+324-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7a7f4f82b1136886a776d5b4d145bd30\jetified-drop-in-3.7.1\AndroidManifest.xml:23:13-61
+325        <activity
+325-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7a7f4f82b1136886a776d5b4d145bd30\jetified-drop-in-3.7.1\AndroidManifest.xml:24:9-26:65
+326            android:name="com.braintreepayments.api.dropin.AddCardActivity"
+326-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7a7f4f82b1136886a776d5b4d145bd30\jetified-drop-in-3.7.1\AndroidManifest.xml:25:13-76
+327            android:theme="@style/bt_add_card_activity_theme" />
+327-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7a7f4f82b1136886a776d5b4d145bd30\jetified-drop-in-3.7.1\AndroidManifest.xml:26:13-62
+328        <activity
+328-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7a7f4f82b1136886a776d5b4d145bd30\jetified-drop-in-3.7.1\AndroidManifest.xml:27:9-29:70
+329            android:name="com.braintreepayments.api.dropin.VaultManagerActivity"
+329-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7a7f4f82b1136886a776d5b4d145bd30\jetified-drop-in-3.7.1\AndroidManifest.xml:28:13-81
+330            android:theme="@style/bt_vault_manager_activity_theme" />
+330-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7a7f4f82b1136886a776d5b4d145bd30\jetified-drop-in-3.7.1\AndroidManifest.xml:29:13-67
+331        <activity
+331-->[com.google.android.libraries.places:places:2.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\95fd6d60ed68f076d9c5ea45d0a5d75e\jetified-places-2.4.0\AndroidManifest.xml:14:9-20:20
+332            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+332-->[com.google.android.libraries.places:places:2.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\95fd6d60ed68f076d9c5ea45d0a5d75e\jetified-places-2.4.0\AndroidManifest.xml:15:13-91
+333            android:exported="false"
+333-->[com.google.android.libraries.places:places:2.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\95fd6d60ed68f076d9c5ea45d0a5d75e\jetified-places-2.4.0\AndroidManifest.xml:16:13-37
+334            android:label="@string/places_autocomplete_label"
+334-->[com.google.android.libraries.places:places:2.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\95fd6d60ed68f076d9c5ea45d0a5d75e\jetified-places-2.4.0\AndroidManifest.xml:17:13-62
+335            android:theme="@style/PlacesAutocompleteOverlay"
+335-->[com.google.android.libraries.places:places:2.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\95fd6d60ed68f076d9c5ea45d0a5d75e\jetified-places-2.4.0\AndroidManifest.xml:18:13-61
+336            android:windowSoftInputMode="adjustResize" >
+336-->[com.google.android.libraries.places:places:2.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\95fd6d60ed68f076d9c5ea45d0a5d75e\jetified-places-2.4.0\AndroidManifest.xml:19:13-55
+337        </activity>
+338        <activity
+338-->[lk.payhere.sdk:android-payment-sdk:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\16843ace8a4deb9236f7573571ef8ee9\jetified-android-payment-sdk-1.0.0\AndroidManifest.xml:18:9-21:20
+339            android:name="lk.payhere.androidsdk.PHMainActivity"
+339-->[lk.payhere.sdk:android-payment-sdk:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\16843ace8a4deb9236f7573571ef8ee9\jetified-android-payment-sdk-1.0.0\AndroidManifest.xml:19:13-64
+340            android:theme="@style/ph_transparent.windowTitle" >
+340-->[lk.payhere.sdk:android-payment-sdk:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\16843ace8a4deb9236f7573571ef8ee9\jetified-android-payment-sdk-1.0.0\AndroidManifest.xml:20:13-62
+341        </activity>
+342        <activity
+342-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\969cd4b45e0278723d9b0e34dbb1894c\jetified-play-services-auth-18.1.0\AndroidManifest.xml:23:9-27:75
+343            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+343-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\969cd4b45e0278723d9b0e34dbb1894c\jetified-play-services-auth-18.1.0\AndroidManifest.xml:24:13-93
+344            android:excludeFromRecents="true"
+344-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\969cd4b45e0278723d9b0e34dbb1894c\jetified-play-services-auth-18.1.0\AndroidManifest.xml:25:13-46
+345            android:exported="false"
+345-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\969cd4b45e0278723d9b0e34dbb1894c\jetified-play-services-auth-18.1.0\AndroidManifest.xml:26:13-37
+346            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+346-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\969cd4b45e0278723d9b0e34dbb1894c\jetified-play-services-auth-18.1.0\AndroidManifest.xml:27:13-72
+347        <!--
+348            Service handling Google Sign-In user revocation. For apps that do not integrate with
+349            Google Sign-In, this service will never be started.
+350        -->
+351        <service
+351-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\969cd4b45e0278723d9b0e34dbb1894c\jetified-play-services-auth-18.1.0\AndroidManifest.xml:33:9-37:51
+352            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+352-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\969cd4b45e0278723d9b0e34dbb1894c\jetified-play-services-auth-18.1.0\AndroidManifest.xml:34:13-89
+353            android:exported="true"
+353-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\969cd4b45e0278723d9b0e34dbb1894c\jetified-play-services-auth-18.1.0\AndroidManifest.xml:35:13-36
+354            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+354-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\969cd4b45e0278723d9b0e34dbb1894c\jetified-play-services-auth-18.1.0\AndroidManifest.xml:36:13-107
+355            android:visibleToInstantApps="true" />
+355-->[com.google.android.gms:play-services-auth:18.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\969cd4b45e0278723d9b0e34dbb1894c\jetified-play-services-auth-18.1.0\AndroidManifest.xml:37:13-48
+356
+357        <provider
+357-->[com.squareup.picasso:picasso:2.8] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dfbbc71faee1309708773e4b9ff9795f\jetified-picasso-2.8\AndroidManifest.xml:8:9-11:40
+358            android:name="com.squareup.picasso.PicassoProvider"
+358-->[com.squareup.picasso:picasso:2.8] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dfbbc71faee1309708773e4b9ff9795f\jetified-picasso-2.8\AndroidManifest.xml:9:13-64
+359            android:authorities="com.twinslooktm.twinslooktmapp.com.squareup.picasso"
+359-->[com.squareup.picasso:picasso:2.8] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dfbbc71faee1309708773e4b9ff9795f\jetified-picasso-2.8\AndroidManifest.xml:10:13-72
+360            android:exported="false" />
+360-->[com.squareup.picasso:picasso:2.8] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\dfbbc71faee1309708773e4b9ff9795f\jetified-picasso-2.8\AndroidManifest.xml:11:13-37
+361
+362        <service
+362-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed17ecbd5a56235fed582e532306d81e\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:40:9-44:72
+363            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+363-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed17ecbd5a56235fed582e532306d81e\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:41:13-80
+364            android:enabled="true"
+364-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed17ecbd5a56235fed582e532306d81e\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:42:13-35
+365            android:exported="false"
+365-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed17ecbd5a56235fed582e532306d81e\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:43:13-37
+366            android:permission="android.permission.BIND_JOB_SERVICE" />
+366-->[com.google.android.gms:play-services-analytics:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ed17ecbd5a56235fed582e532306d81e\jetified-play-services-analytics-17.0.0\AndroidManifest.xml:44:13-69
+367        <!--
+368             FirebaseMessagingService performs security checks at runtime,
+369             but set to not exported to explicitly avoid allowing another app to call it.
+370        -->
+371        <service
+371-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7bf4b123f610528e14aba5fa51f01afe\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:28:9-35:19
+372            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+372-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7bf4b123f610528e14aba5fa51f01afe\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:29:13-82
+373            android:directBootAware="true"
+373-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7bf4b123f610528e14aba5fa51f01afe\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:30:13-43
+374            android:exported="false" >
+374-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7bf4b123f610528e14aba5fa51f01afe\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:31:13-37
+375            <intent-filter android:priority="-500" >
+375-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:232:13-234:29
+376                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+376-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:233:17-78
+376-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:233:25-75
+377            </intent-filter>
+378        </service>
+379        <service
+379-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7bf4b123f610528e14aba5fa51f01afe\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:36:9-42:19
+380            android:name="com.google.firebase.components.ComponentDiscoveryService"
+380-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7bf4b123f610528e14aba5fa51f01afe\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:37:13-84
+381            android:directBootAware="true"
+381-->[com.google.firebase:firebase-common:19.3.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\74a3fed69bb9ca30aafe97e808f6bdd0\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+382            android:exported="false" >
+382-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7bf4b123f610528e14aba5fa51f01afe\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:38:13-37
+383            <meta-data
+383-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7bf4b123f610528e14aba5fa51f01afe\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:39:13-41:85
+384                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+384-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7bf4b123f610528e14aba5fa51f01afe\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:40:17-119
+385                android:value="com.google.firebase.components.ComponentRegistrar" />
+385-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7bf4b123f610528e14aba5fa51f01afe\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:41:17-82
+386            <meta-data
+386-->[com.google.firebase:firebase-database:19.5.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bff61c37dbc6b4a96eff497cf4bde48f\jetified-firebase-database-19.5.1\AndroidManifest.xml:32:13-34:85
+387                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+387-->[com.google.firebase:firebase-database:19.5.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bff61c37dbc6b4a96eff497cf4bde48f\jetified-firebase-database-19.5.1\AndroidManifest.xml:33:17-109
+388                android:value="com.google.firebase.components.ComponentRegistrar" />
+388-->[com.google.firebase:firebase-database:19.5.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bff61c37dbc6b4a96eff497cf4bde48f\jetified-firebase-database-19.5.1\AndroidManifest.xml:34:17-82
+389            <meta-data
+389-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\670cf115d4d8d4cc1f7d7a0a2c104f29\jetified-firebase-iid-21.0.0\AndroidManifest.xml:32:13-34:85
+390                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+390-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\670cf115d4d8d4cc1f7d7a0a2c104f29\jetified-firebase-iid-21.0.0\AndroidManifest.xml:33:17-96
+391                android:value="com.google.firebase.components.ComponentRegistrar" />
+391-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\670cf115d4d8d4cc1f7d7a0a2c104f29\jetified-firebase-iid-21.0.0\AndroidManifest.xml:34:17-82
+392            <meta-data
+392-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3f7dbc37085cb2ad5e71398fdf2ba422\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:30:13-32:85
+393                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+393-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3f7dbc37085cb2ad5e71398fdf2ba422\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:31:17-139
+394                android:value="com.google.firebase.components.ComponentRegistrar" />
+394-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3f7dbc37085cb2ad5e71398fdf2ba422\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:32:17-82
+395            <meta-data
+395-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3c472674ea20d1fc09808cf6e98aca88\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+396                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+396-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3c472674ea20d1fc09808cf6e98aca88\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+397                android:value="com.google.firebase.components.ComponentRegistrar" />
+397-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3c472674ea20d1fc09808cf6e98aca88\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+398            <meta-data
+398-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\826cead0b589f12ff2a1fd997de5f14e\jetified-firebase-installations-16.3.3\AndroidManifest.xml:17:13-19:85
+399                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+399-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\826cead0b589f12ff2a1fd997de5f14e\jetified-firebase-installations-16.3.3\AndroidManifest.xml:18:17-127
+400                android:value="com.google.firebase.components.ComponentRegistrar" />
+400-->[com.google.firebase:firebase-installations:16.3.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\826cead0b589f12ff2a1fd997de5f14e\jetified-firebase-installations-16.3.3\AndroidManifest.xml:19:17-82
+401        </service>
+402
+403        <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity" />
+403-->[com.paypal.sdk:paypal-android-sdk:2.13.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a3add8175d426ed3979d07170a3c3fb1\jetified-paypal-android-sdk-2.13.3\AndroidManifest.xml:17:9-96
+403-->[com.paypal.sdk:paypal-android-sdk:2.13.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a3add8175d426ed3979d07170a3c3fb1\jetified-paypal-android-sdk-2.13.3\AndroidManifest.xml:17:19-93
+404        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity" />
+404-->[com.paypal.sdk:paypal-android-sdk:2.13.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a3add8175d426ed3979d07170a3c3fb1\jetified-paypal-android-sdk-2.13.3\AndroidManifest.xml:18:9-97
+404-->[com.paypal.sdk:paypal-android-sdk:2.13.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a3add8175d426ed3979d07170a3c3fb1\jetified-paypal-android-sdk-2.13.3\AndroidManifest.xml:18:19-94
+405        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity" />
+405-->[com.paypal.sdk:paypal-android-sdk:2.13.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a3add8175d426ed3979d07170a3c3fb1\jetified-paypal-android-sdk-2.13.3\AndroidManifest.xml:19:9-94
+405-->[com.paypal.sdk:paypal-android-sdk:2.13.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a3add8175d426ed3979d07170a3c3fb1\jetified-paypal-android-sdk-2.13.3\AndroidManifest.xml:19:19-91
+406        <activity android:name="com.paypal.android.sdk.payments.PayPalProfileSharingActivity" />
+406-->[com.paypal.sdk:paypal-android-sdk:2.13.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a3add8175d426ed3979d07170a3c3fb1\jetified-paypal-android-sdk-2.13.3\AndroidManifest.xml:20:9-97
+406-->[com.paypal.sdk:paypal-android-sdk:2.13.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a3add8175d426ed3979d07170a3c3fb1\jetified-paypal-android-sdk-2.13.3\AndroidManifest.xml:20:19-94
+407        <activity android:name="com.paypal.android.sdk.payments.ProfileSharingConsentActivity" />
+407-->[com.paypal.sdk:paypal-android-sdk:2.13.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a3add8175d426ed3979d07170a3c3fb1\jetified-paypal-android-sdk-2.13.3\AndroidManifest.xml:21:9-98
+407-->[com.paypal.sdk:paypal-android-sdk:2.13.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a3add8175d426ed3979d07170a3c3fb1\jetified-paypal-android-sdk-2.13.3\AndroidManifest.xml:21:19-95
+408
+409        <provider
+409-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6c59112fe30026d0769d39fa0a9f5598\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:19:9-23:39
+410            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+410-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6c59112fe30026d0769d39fa0a9f5598\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:20:13-93
+411            android:authorities="com.twinslooktm.twinslooktmapp.mapboxtelemetryinitprovider"
+411-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6c59112fe30026d0769d39fa0a9f5598\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:21:13-79
+412            android:exported="false"
+412-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6c59112fe30026d0769d39fa0a9f5598\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:22:13-37
+413            android:initOrder="100" />
+413-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6c59112fe30026d0769d39fa0a9f5598\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:23:13-36
+414
+415        <service
+415-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6c59112fe30026d0769d39fa0a9f5598\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:25:9-27:72
+416            android:name="com.mapbox.android.telemetry.crash.CrashReporterJobIntentService"
+416-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6c59112fe30026d0769d39fa0a9f5598\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:26:13-92
+417            android:permission="android.permission.BIND_JOB_SERVICE" />
+417-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.5.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\6c59112fe30026d0769d39fa0a9f5598\jetified-mapbox-android-telemetry-4.5.1\AndroidManifest.xml:27:13-69
+418        <service
+418-->[net.authorize:accept-sdk-android:1.0.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\92d303dd7b4fdcb7a1c2108670abd57f\jetified-accept-sdk-android-1.0.2\AndroidManifest.xml:19:9-21:40
+419            android:name="net.authorize.acceptsdk.network.AcceptService"
+419-->[net.authorize:accept-sdk-android:1.0.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\92d303dd7b4fdcb7a1c2108670abd57f\jetified-accept-sdk-android-1.0.2\AndroidManifest.xml:20:13-73
+420            android:exported="false" />
+420-->[net.authorize:accept-sdk-android:1.0.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\92d303dd7b4fdcb7a1c2108670abd57f\jetified-accept-sdk-android-1.0.2\AndroidManifest.xml:21:13-37
+421
+422        <activity
+422-->[com.droidninja:filepicker:2.1.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d5119db2eeb027a3a887dc80ca331d61\jetified-filepicker-2.1.5\AndroidManifest.xml:17:9-19:62
+423            android:name="droidninja.filepicker.FilePickerActivity"
+423-->[com.droidninja:filepicker:2.1.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d5119db2eeb027a3a887dc80ca331d61\jetified-filepicker-2.1.5\AndroidManifest.xml:18:13-68
+424            android:configChanges="orientation|screenSize" />
+424-->[com.droidninja:filepicker:2.1.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d5119db2eeb027a3a887dc80ca331d61\jetified-filepicker-2.1.5\AndroidManifest.xml:19:13-59
+425        <activity
+425-->[com.droidninja:filepicker:2.1.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d5119db2eeb027a3a887dc80ca331d61\jetified-filepicker-2.1.5\AndroidManifest.xml:20:9-22:62
+426            android:name="droidninja.filepicker.MediaDetailsActivity"
+426-->[com.droidninja:filepicker:2.1.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d5119db2eeb027a3a887dc80ca331d61\jetified-filepicker-2.1.5\AndroidManifest.xml:21:13-70
+427            android:configChanges="orientation|screenSize" />
+427-->[com.droidninja:filepicker:2.1.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d5119db2eeb027a3a887dc80ca331d61\jetified-filepicker-2.1.5\AndroidManifest.xml:22:13-59
+428
+429        <provider
+429-->[com.droidninja:filepicker:2.1.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d5119db2eeb027a3a887dc80ca331d61\jetified-filepicker-2.1.5\AndroidManifest.xml:24:9-32:20
+430            android:name="droidninja.filepicker.utils.FilePickerProvider"
+430-->[com.droidninja:filepicker:2.1.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d5119db2eeb027a3a887dc80ca331d61\jetified-filepicker-2.1.5\AndroidManifest.xml:25:13-74
+431            android:authorities="com.twinslooktm.twinslooktmapp.droidninja.filepicker.provider"
+431-->[com.droidninja:filepicker:2.1.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d5119db2eeb027a3a887dc80ca331d61\jetified-filepicker-2.1.5\AndroidManifest.xml:26:13-82
+432            android:exported="false"
+432-->[com.droidninja:filepicker:2.1.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d5119db2eeb027a3a887dc80ca331d61\jetified-filepicker-2.1.5\AndroidManifest.xml:27:13-37
+433            android:grantUriPermissions="true" >
+433-->[com.droidninja:filepicker:2.1.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d5119db2eeb027a3a887dc80ca331d61\jetified-filepicker-2.1.5\AndroidManifest.xml:28:13-47
+434            <meta-data
+434-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\142f51b6d317ab95569e510f95bfc14a\jetified-gligar-1.1.0\AndroidManifest.xml:27:13-29:54
+435                android:name="android.support.FILE_PROVIDER_PATHS"
+435-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\142f51b6d317ab95569e510f95bfc14a\jetified-gligar-1.1.0\AndroidManifest.xml:28:17-67
+436                android:resource="@xml/provider_paths" />
+436-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\142f51b6d317ab95569e510f95bfc14a\jetified-gligar-1.1.0\AndroidManifest.xml:29:17-51
+437        </provider>
+438
+439        <activity
+439-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a83323e5ea0ce25cb134df4dbce21ecc\jetified-braintree-2.18.1\AndroidManifest.xml:15:9-17:62
+440            android:name="com.braintreepayments.api.AndroidPayActivity"
+440-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a83323e5ea0ce25cb134df4dbce21ecc\jetified-braintree-2.18.1\AndroidManifest.xml:16:13-72
+441            android:theme="@style/bt_transparent_activity" />
+441-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a83323e5ea0ce25cb134df4dbce21ecc\jetified-braintree-2.18.1\AndroidManifest.xml:17:13-59
+442        <activity
+442-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a83323e5ea0ce25cb134df4dbce21ecc\jetified-braintree-2.18.1\AndroidManifest.xml:18:9-20:62
+443            android:name="com.braintreepayments.api.GooglePaymentActivity"
+443-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a83323e5ea0ce25cb134df4dbce21ecc\jetified-braintree-2.18.1\AndroidManifest.xml:19:13-75
+444            android:theme="@style/bt_transparent_activity" />
+444-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a83323e5ea0ce25cb134df4dbce21ecc\jetified-braintree-2.18.1\AndroidManifest.xml:20:13-59
+445
+446        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
+446-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a83323e5ea0ce25cb134df4dbce21ecc\jetified-braintree-2.18.1\AndroidManifest.xml:23:9-93
+446-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a83323e5ea0ce25cb134df4dbce21ecc\jetified-braintree-2.18.1\AndroidManifest.xml:23:18-90
+447        <!--
+448         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+449         with the application context. This config is merged in with the host app's manifest,
+450         but there can only be one provider with the same authority activated at any given
+451         point; so if the end user has two or more different apps that use Facebook SDK, only the
+452         first one will be able to use the provider. To work around this problem, we use the
+453         following placeholder in the authority to identify each host application as if it was
+454         a completely different provider.
+455        -->
+456        <provider
+456-->[com.facebook.android:facebook-core:7.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\9e8c0c324bb30df53da396439832c9f5\jetified-facebook-core-7.0.0\AndroidManifest.xml:39:9-42:40
+457            android:name="com.facebook.internal.FacebookInitProvider"
+457-->[com.facebook.android:facebook-core:7.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\9e8c0c324bb30df53da396439832c9f5\jetified-facebook-core-7.0.0\AndroidManifest.xml:40:13-70
+458            android:authorities="com.twinslooktm.twinslooktmapp.FacebookInitProvider"
+458-->[com.facebook.android:facebook-core:7.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\9e8c0c324bb30df53da396439832c9f5\jetified-facebook-core-7.0.0\AndroidManifest.xml:41:13-72
+459            android:exported="false" />
+459-->[com.facebook.android:facebook-core:7.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\9e8c0c324bb30df53da396439832c9f5\jetified-facebook-core-7.0.0\AndroidManifest.xml:42:13-37
+460
+461        <receiver
+461-->[com.facebook.android:facebook-core:7.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\9e8c0c324bb30df53da396439832c9f5\jetified-facebook-core-7.0.0\AndroidManifest.xml:44:9-50:20
+462            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+462-->[com.facebook.android:facebook-core:7.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\9e8c0c324bb30df53da396439832c9f5\jetified-facebook-core-7.0.0\AndroidManifest.xml:45:13-86
+463            android:exported="false" >
+463-->[com.facebook.android:facebook-core:7.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\9e8c0c324bb30df53da396439832c9f5\jetified-facebook-core-7.0.0\AndroidManifest.xml:46:13-37
+464            <intent-filter>
+464-->[com.facebook.android:facebook-core:7.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\9e8c0c324bb30df53da396439832c9f5\jetified-facebook-core-7.0.0\AndroidManifest.xml:47:13-49:29
+465                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+465-->[com.facebook.android:facebook-core:7.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\9e8c0c324bb30df53da396439832c9f5\jetified-facebook-core-7.0.0\AndroidManifest.xml:48:17-95
+465-->[com.facebook.android:facebook-core:7.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\9e8c0c324bb30df53da396439832c9f5\jetified-facebook-core-7.0.0\AndroidManifest.xml:48:25-92
+466            </intent-filter>
+467        </receiver>
+468        <receiver
+468-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\670cf115d4d8d4cc1f7d7a0a2c104f29\jetified-firebase-iid-21.0.0\AndroidManifest.xml:37:9-44:20
+469            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+469-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\670cf115d4d8d4cc1f7d7a0a2c104f29\jetified-firebase-iid-21.0.0\AndroidManifest.xml:38:13-78
+470            android:exported="true"
+470-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\670cf115d4d8d4cc1f7d7a0a2c104f29\jetified-firebase-iid-21.0.0\AndroidManifest.xml:39:13-36
+471            android:permission="com.google.android.c2dm.permission.SEND" >
+471-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\670cf115d4d8d4cc1f7d7a0a2c104f29\jetified-firebase-iid-21.0.0\AndroidManifest.xml:40:13-73
+472            <intent-filter>
+472-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\670cf115d4d8d4cc1f7d7a0a2c104f29\jetified-firebase-iid-21.0.0\AndroidManifest.xml:41:13-43:29
+473                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+473-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\670cf115d4d8d4cc1f7d7a0a2c104f29\jetified-firebase-iid-21.0.0\AndroidManifest.xml:42:17-81
+473-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\670cf115d4d8d4cc1f7d7a0a2c104f29\jetified-firebase-iid-21.0.0\AndroidManifest.xml:42:25-78
+474            </intent-filter>
+475        </receiver>
+476        <receiver
+476-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\addaee43bd52d45d05d34af175ca1b66\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:29:9-33:20
+477            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+477-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\addaee43bd52d45d05d34af175ca1b66\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:30:13-85
+478            android:enabled="true"
+478-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\addaee43bd52d45d05d34af175ca1b66\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:31:13-35
+479            android:exported="false" >
+479-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\addaee43bd52d45d05d34af175ca1b66\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:32:13-37
+480        </receiver>
+481
+482        <service
+482-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\addaee43bd52d45d05d34af175ca1b66\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:35:9-38:40
+483            android:name="com.google.android.gms.measurement.AppMeasurementService"
+483-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\addaee43bd52d45d05d34af175ca1b66\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:36:13-84
+484            android:enabled="true"
+484-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\addaee43bd52d45d05d34af175ca1b66\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:37:13-35
+485            android:exported="false" />
+485-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\addaee43bd52d45d05d34af175ca1b66\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:38:13-37
+486        <service
+486-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\addaee43bd52d45d05d34af175ca1b66\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:39:9-43:72
+487            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+487-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\addaee43bd52d45d05d34af175ca1b66\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:40:13-87
+488            android:enabled="true"
+488-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\addaee43bd52d45d05d34af175ca1b66\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:41:13-35
+489            android:exported="false"
+489-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\addaee43bd52d45d05d34af175ca1b66\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:42:13-37
+490            android:permission="android.permission.BIND_JOB_SERVICE" />
+490-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\addaee43bd52d45d05d34af175ca1b66\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:43:13-69
+491
+492        <provider
+492-->[com.zendesk.belvedere2:belvedere-core:3.0.0-RC] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\02e6d5df8d75ea6b13f7f495b5a96181\jetified-belvedere-core-3.0.0-RC\AndroidManifest.xml:12:9-21:20
+493            android:name="zendesk.belvedere.BelvedereFileProvider"
+493-->[com.zendesk.belvedere2:belvedere-core:3.0.0-RC] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\02e6d5df8d75ea6b13f7f495b5a96181\jetified-belvedere-core-3.0.0-RC\AndroidManifest.xml:13:13-67
+494            android:authorities="com.twinslooktm.twinslooktmapp.belvedere2.attachments"
+494-->[com.zendesk.belvedere2:belvedere-core:3.0.0-RC] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\02e6d5df8d75ea6b13f7f495b5a96181\jetified-belvedere-core-3.0.0-RC\AndroidManifest.xml:14:13-74
+495            android:exported="false"
+495-->[com.zendesk.belvedere2:belvedere-core:3.0.0-RC] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\02e6d5df8d75ea6b13f7f495b5a96181\jetified-belvedere-core-3.0.0-RC\AndroidManifest.xml:15:13-37
+496            android:grantUriPermissions="true"
+496-->[com.zendesk.belvedere2:belvedere-core:3.0.0-RC] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\02e6d5df8d75ea6b13f7f495b5a96181\jetified-belvedere-core-3.0.0-RC\AndroidManifest.xml:16:13-47
+497            android:readPermission="true" >
+497-->[com.zendesk.belvedere2:belvedere-core:3.0.0-RC] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\02e6d5df8d75ea6b13f7f495b5a96181\jetified-belvedere-core-3.0.0-RC\AndroidManifest.xml:17:13-42
+498            <meta-data
+498-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\142f51b6d317ab95569e510f95bfc14a\jetified-gligar-1.1.0\AndroidManifest.xml:27:13-29:54
+499                android:name="android.support.FILE_PROVIDER_PATHS"
+499-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\142f51b6d317ab95569e510f95bfc14a\jetified-gligar-1.1.0\AndroidManifest.xml:28:17-67
+500                android:resource="@xml/belvedere_attachment_storage_v2" />
+500-->[com.opensooq.supernova:gligar:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\142f51b6d317ab95569e510f95bfc14a\jetified-gligar-1.1.0\AndroidManifest.xml:29:17-51
+501        </provider>
+502
+503        <activity
+503-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cd86a579511bc9b9794a83fc82bde43e\jetified-play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
+504            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+504-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cd86a579511bc9b9794a83fc82bde43e\jetified-play-services-base-17.2.1\AndroidManifest.xml:24:13-79
+505            android:exported="false"
+505-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cd86a579511bc9b9794a83fc82bde43e\jetified-play-services-base-17.2.1\AndroidManifest.xml:25:13-37
+506            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+506-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\cd86a579511bc9b9794a83fc82bde43e\jetified-play-services-base-17.2.1\AndroidManifest.xml:26:13-72
+507        <activity
+507-->[com.google.android.gms:play-services-ads-lite:19.5.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bb1b95bc8855afb64d758c27d7b160a1\jetified-play-services-ads-lite-19.5.0\AndroidManifest.xml:29:9-33:64
+508            android:name="com.google.android.gms.ads.AdActivity"
+508-->[com.google.android.gms:play-services-ads-lite:19.5.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bb1b95bc8855afb64d758c27d7b160a1\jetified-play-services-ads-lite-19.5.0\AndroidManifest.xml:30:13-65
+509            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+509-->[com.google.android.gms:play-services-ads-lite:19.5.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bb1b95bc8855afb64d758c27d7b160a1\jetified-play-services-ads-lite-19.5.0\AndroidManifest.xml:31:13-122
+510            android:exported="false"
+510-->[com.google.android.gms:play-services-ads-lite:19.5.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bb1b95bc8855afb64d758c27d7b160a1\jetified-play-services-ads-lite-19.5.0\AndroidManifest.xml:32:13-37
+511            android:theme="@android:style/Theme.Translucent" />
+511-->[com.google.android.gms:play-services-ads-lite:19.5.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bb1b95bc8855afb64d758c27d7b160a1\jetified-play-services-ads-lite-19.5.0\AndroidManifest.xml:33:13-61
+512
+513        <provider
+513-->[com.google.android.gms:play-services-ads-lite:19.5.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bb1b95bc8855afb64d758c27d7b160a1\jetified-play-services-ads-lite-19.5.0\AndroidManifest.xml:35:9-39:39
+514            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+514-->[com.google.android.gms:play-services-ads-lite:19.5.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bb1b95bc8855afb64d758c27d7b160a1\jetified-play-services-ads-lite-19.5.0\AndroidManifest.xml:36:13-76
+515            android:authorities="com.twinslooktm.twinslooktmapp.mobileadsinitprovider"
+515-->[com.google.android.gms:play-services-ads-lite:19.5.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bb1b95bc8855afb64d758c27d7b160a1\jetified-play-services-ads-lite-19.5.0\AndroidManifest.xml:37:13-73
+516            android:exported="false"
+516-->[com.google.android.gms:play-services-ads-lite:19.5.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bb1b95bc8855afb64d758c27d7b160a1\jetified-play-services-ads-lite-19.5.0\AndroidManifest.xml:38:13-37
+517            android:initOrder="100" />
+517-->[com.google.android.gms:play-services-ads-lite:19.5.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bb1b95bc8855afb64d758c27d7b160a1\jetified-play-services-ads-lite-19.5.0\AndroidManifest.xml:39:13-36
+518
+519        <service
+519-->[com.google.android.gms:play-services-ads-lite:19.5.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bb1b95bc8855afb64d758c27d7b160a1\jetified-play-services-ads-lite-19.5.0\AndroidManifest.xml:41:9-44:40
+520            android:name="com.google.android.gms.ads.AdService"
+520-->[com.google.android.gms:play-services-ads-lite:19.5.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bb1b95bc8855afb64d758c27d7b160a1\jetified-play-services-ads-lite-19.5.0\AndroidManifest.xml:42:13-64
+521            android:enabled="true"
+521-->[com.google.android.gms:play-services-ads-lite:19.5.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bb1b95bc8855afb64d758c27d7b160a1\jetified-play-services-ads-lite-19.5.0\AndroidManifest.xml:43:13-35
+522            android:exported="false" />
+522-->[com.google.android.gms:play-services-ads-lite:19.5.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bb1b95bc8855afb64d758c27d7b160a1\jetified-play-services-ads-lite-19.5.0\AndroidManifest.xml:44:13-37
+523
+524        <provider
+524-->[com.google.firebase:firebase-common:19.3.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\74a3fed69bb9ca30aafe97e808f6bdd0\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+525            android:name="com.google.firebase.provider.FirebaseInitProvider"
+525-->[com.google.firebase:firebase-common:19.3.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\74a3fed69bb9ca30aafe97e808f6bdd0\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+526            android:authorities="com.twinslooktm.twinslooktmapp.firebaseinitprovider"
+526-->[com.google.firebase:firebase-common:19.3.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\74a3fed69bb9ca30aafe97e808f6bdd0\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+527            android:directBootAware="true"
+527-->[com.google.firebase:firebase-common:19.3.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\74a3fed69bb9ca30aafe97e808f6bdd0\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+528            android:exported="false"
+528-->[com.google.firebase:firebase-common:19.3.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\74a3fed69bb9ca30aafe97e808f6bdd0\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+529            android:initOrder="100" />
+529-->[com.google.firebase:firebase-common:19.3.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\74a3fed69bb9ca30aafe97e808f6bdd0\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+530        <provider
+530-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:30:9-36:35
+531            android:name="androidx.work.impl.WorkManagerInitializer"
+531-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:31:13-69
+532            android:authorities="com.twinslooktm.twinslooktmapp.workmanager-init"
+532-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:32:13-68
+533            android:directBootAware="false"
+533-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:33:13-44
+534            android:exported="false"
+534-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:34:13-37
+535            android:multiprocess="true" />
+535-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:35:13-40
+536
+537        <service
+537-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:38:9-43:35
+538            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+538-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:39:13-88
+539            android:directBootAware="false"
+539-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:40:13-44
+540            android:enabled="@bool/enable_system_alarm_service_default"
+540-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:41:13-72
+541            android:exported="false" />
+541-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:42:13-37
+542        <service
+542-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:44:9-50:35
+543            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+543-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:45:13-84
+544            android:directBootAware="false"
+544-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:46:13-44
+545            android:enabled="@bool/enable_system_job_service_default"
+545-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:47:13-70
+546            android:exported="true"
+546-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:48:13-36
+547            android:permission="android.permission.BIND_JOB_SERVICE" />
+547-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:49:13-69
+548
+549        <receiver
+549-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:52:9-57:35
+550            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+550-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:53:13-88
+551            android:directBootAware="false"
+551-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:54:13-44
+552            android:enabled="true"
+552-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:55:13-35
+553            android:exported="false" />
+553-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:56:13-37
+554        <receiver
+554-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:58:9-68:20
+555            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+555-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:59:13-106
+556            android:directBootAware="false"
+556-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:60:13-44
+557            android:enabled="false"
+557-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:61:13-36
+558            android:exported="false" >
+558-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:62:13-37
+559            <intent-filter>
+559-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:64:13-67:29
+560                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+560-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:65:17-87
+560-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:65:25-84
+561                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+561-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:66:17-90
+561-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:66:25-87
+562            </intent-filter>
+563        </receiver>
+564        <receiver
+564-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:69:9-79:20
+565            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+565-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:70:13-104
+566            android:directBootAware="false"
+566-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:71:13-44
+567            android:enabled="false"
+567-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:72:13-36
+568            android:exported="false" >
+568-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:73:13-37
+569            <intent-filter>
+569-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:75:13-78:29
+570                <action android:name="android.intent.action.BATTERY_OKAY" />
+570-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:76:17-77
+570-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:76:25-74
+571                <action android:name="android.intent.action.BATTERY_LOW" />
+571-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:77:17-76
+571-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:77:25-73
+572            </intent-filter>
+573        </receiver>
+574        <receiver
+574-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:80:9-90:20
+575            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+575-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:81:13-104
+576            android:directBootAware="false"
+576-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:82:13-44
+577            android:enabled="false"
+577-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:83:13-36
+578            android:exported="false" >
+578-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:84:13-37
+579            <intent-filter>
+579-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:86:13-89:29
+580                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+580-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:87:17-83
+580-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:87:25-80
+581                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+581-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:88:17-82
+581-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:88:25-79
+582            </intent-filter>
+583        </receiver>
+584        <receiver
+584-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:91:9-100:20
+585            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+585-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:92:13-103
+586            android:directBootAware="false"
+586-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:93:13-44
+587            android:enabled="false"
+587-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:94:13-36
+588            android:exported="false" >
+588-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:95:13-37
+589            <intent-filter>
+589-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:97:13-99:29
+590                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+590-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:219:17-79
+590-->C:\Users\HP\Desktop\codecanyon-f3sLUhtf-adforest-classified-native-android-app\main_files\AdForest\AdForest\app\src\main\AndroidManifest.xml:219:25-76
+591            </intent-filter>
+592        </receiver>
+593        <receiver
+593-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:101:9-112:20
+594            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+594-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:102:13-88
+595            android:directBootAware="false"
+595-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:103:13-44
+596            android:enabled="false"
+596-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:104:13-36
+597            android:exported="false" >
+597-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:105:13-37
+598            <intent-filter>
+598-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:107:13-111:29
+599                <action android:name="android.intent.action.BOOT_COMPLETED" />
+599-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:108:17-79
+599-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:108:25-76
+600                <action android:name="android.intent.action.TIME_SET" />
+600-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:109:17-73
+600-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:109:25-70
+601                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+601-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:110:17-81
+601-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:110:25-78
+602            </intent-filter>
+603        </receiver>
+604        <receiver
+604-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:113:9-122:20
+605            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+605-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:114:13-99
+606            android:directBootAware="false"
+606-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:115:13-44
+607            android:enabled="@bool/enable_system_alarm_service_default"
+607-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:116:13-72
+608            android:exported="false" >
+608-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:117:13-37
+609            <intent-filter>
+609-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:119:13-121:29
+610                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+610-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:120:17-98
+610-->[androidx.work:work-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\96742ca90b88a93e0ce9866ba0df20a3\work-runtime-2.1.0\AndroidManifest.xml:120:25-95
+611            </intent-filter>
+612        </receiver>
+613
+614        <service
+614-->[androidx.room:room-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0ad7aa2feebc13f00e241acdc0a97921\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+615            android:name="androidx.room.MultiInstanceInvalidationService"
+615-->[androidx.room:room-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0ad7aa2feebc13f00e241acdc0a97921\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+616            android:exported="false" />
+616-->[androidx.room:room-runtime:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0ad7aa2feebc13f00e241acdc0a97921\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+617        <service
+617-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9d9b63ee8e44b46b548a65e54c29272\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+618            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+618-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9d9b63ee8e44b46b548a65e54c29272\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+619            android:exported="false" >
+619-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9d9b63ee8e44b46b548a65e54c29272\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+620            <meta-data
+620-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9d9b63ee8e44b46b548a65e54c29272\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+621                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+621-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9d9b63ee8e44b46b548a65e54c29272\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+622                android:value="cct" />
+622-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9d9b63ee8e44b46b548a65e54c29272\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
+623        </service>
+624        <service
+624-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\975bb35c275abac80b85425003d16f16\jetified-transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+625            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+625-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\975bb35c275abac80b85425003d16f16\jetified-transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+626            android:exported="false"
+626-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\975bb35c275abac80b85425003d16f16\jetified-transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+627            android:permission="android.permission.BIND_JOB_SERVICE" >
+627-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\975bb35c275abac80b85425003d16f16\jetified-transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+628        </service>
+629
+630        <receiver
+630-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\975bb35c275abac80b85425003d16f16\jetified-transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+631            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+631-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\975bb35c275abac80b85425003d16f16\jetified-transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
+632            android:exported="false" />
+632-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\975bb35c275abac80b85425003d16f16\jetified-transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+633
+634        <provider
+634-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\64f6be1dee86a97e1afb4e91c0a58d35\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+635            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+635-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\64f6be1dee86a97e1afb4e91c0a58d35\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+636            android:authorities="com.twinslooktm.twinslooktmapp.lifecycle-process"
+636-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\64f6be1dee86a97e1afb4e91c0a58d35\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+637            android:exported="false"
+637-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\64f6be1dee86a97e1afb4e91c0a58d35\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+638            android:multiprocess="true" />
+638-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\64f6be1dee86a97e1afb4e91c0a58d35\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+639    </application>
+640
+641</manifest>

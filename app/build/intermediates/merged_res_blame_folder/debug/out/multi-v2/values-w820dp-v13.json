@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\HP\\Desktop\\codecanyon-f3sLUhtf-adforest-classified-native-android-app\\main_files\\AdForest\\AdForest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\ae66214ed1d8b7384b280e035ca520cc\\jetified-SpaceNavigationView-1.6.0\\res\\values-w820dp-v13\\values-w820dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "47",
+                        "endOffsets": "98"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "113",
+                        "endColumns": "47",
+                        "endOffsets": "156"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\HP\\Desktop\\codecanyon-f3sLUhtf-adforest-classified-native-android-app\\main_files\\AdForest\\AdForest\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "from": {
+                        "startLines": "4,6,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "295,398,354",
+                        "endColumns": "57,40,42",
+                        "endOffsets": "348,434,392"
+                    },
+                    "to": {
+                        "startLines": "2,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,161,202",
+                        "endColumns": "57,40,42",
+                        "endOffsets": "108,197,240"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\16843ace8a4deb9236f7573571ef8ee9\\jetified-android-payment-sdk-1.0.0\\res\\values-w820dp-v13\\values-w820dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "60",
+                        "endOffsets": "111"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "245",
+                        "endColumns": "60",
+                        "endOffsets": "301"
+                    }
+                }
+            ]
+        }
+    ]
+}
